@@ -1,10 +1,11 @@
 #include <iostream>
-#include "funciones.h"
 using namespace std;
+#include "funciones.h"
 
 int main(int argc, char const *argv[])
 {
-    int opcion;
+    cout<<"Hola mundo" <<endl;
+     int opcion;
     bool salida = false;
     string nombres[2];
 
@@ -30,14 +31,11 @@ int main(int argc, char const *argv[])
         cout<<"Opcion: "<<endl;
         cin>>opcion;
 
-
         switch(opcion){
             case 1:
                 system("cls");
                 ingresoNombres(nombres);
-
                 system("pause");
-
             break;
             case 2:
                 system("cls");
@@ -65,9 +63,7 @@ int main(int argc, char const *argv[])
                     system("pause");
                 }
             break;
-
             default:
-
                 cout<<endl;
                 cout<<"La opcion ingresada es incorrecta.";
                 cout<<endl;

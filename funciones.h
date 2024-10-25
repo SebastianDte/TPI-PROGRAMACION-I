@@ -107,7 +107,7 @@ void ingresoNombres(string vecNombres[2]){
 }
 
 bool confirmarSalida(bool &salida){
-
+    return true;
 }
 //FUNCIÓN PARA LANZAR EL MENÚ
 
